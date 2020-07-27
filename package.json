@@ -1,0 +1,13 @@
+{
+  "name": "docker-system-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "infra:build": "docker-compose build",
+    "infra:start": "docker-compose up -V -d",
+    "infra:stop": "docker-compose down"
+  },
+  "author": "",
+  "license": "MIT"
+}
